@@ -7,7 +7,6 @@ home page
 }
 
 .header-background{
-    
     background-color: rgba(0, 17, 22, 0.7);
     position: absolute;
     top: 0;
@@ -15,6 +14,7 @@ home page
     width: 100%;
     height: 70%;   
 }
+
 a{
     text-decoration-line: none;
     text-decoration-style: none;
@@ -109,17 +109,58 @@ a{
 .affected-col{
     padding-right:0;
 }
-.text-purple{
-    color: #333366;
-}
-.bg-deal{
+
+/*============================
+ background section
+ ======================== */
+.bg-deal {
     background: #187997;
 }
+
+.bg-head,
+.bg-footer {
+    background: #002E3C;
+}
+
+
+/* ======================
+button section 
+==========================*/
+
 .btn-number{
     background:#FF9B00;
     color:#fff;
     border-radius:50%;
 }
+.btn-orange {
+    background: #FF9B00;
+    color: #fff;
+}
+.signup-btn {
+    border-radius: 50px;
+    background: #09789B;
+    padding: 3px 25px;
+}
+.btn-email{
+    border-radius: 50px;
+    background:#FF9B00;
+    padding: 3px 25px;
+}
+
+
+
+/*=========================
+ text-color section
+ ========================= */
+ .text-orange {
+     color: #FF9B00;
+ }
+.text-purple {
+    color: #333366;
+}
+
+
+
 .card-deal{
     width:75px;
     height: 75px;
@@ -143,13 +184,7 @@ a{
     /* text-align:center; */
     float:none;
 }
-.text-orange{
-    color:#FF9B00;
-}
-.btn-orange{
-    background:#FF9B00;
-    color:#fff;
-}
+
 .blog-link{
     bottom:0;
 }
@@ -169,13 +204,10 @@ a{
     font-size: 150px;
 
 }
-.signup-btn{
-    border-radius:50px;
-    background:#09789B;
-    padding: 3px 25px;
-}
+
 
 .navbar-nav > li{
   padding-left:10px;
   padding-right:10px;
 }
+

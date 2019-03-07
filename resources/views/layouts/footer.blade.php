@@ -1,6 +1,6 @@
 @include('action')
 
-<footer class="footer bg-footer bg-dark">
+<footer class="footer bg-footer">
     <div class="container py-5">
         <div class="row">
             <div class="col-md-8 row">

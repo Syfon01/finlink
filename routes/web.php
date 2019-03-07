@@ -19,3 +19,11 @@ Route::get('/about', function () {
     return view('about.index');
 });
 
+Route::get('/contact', function () {
+    return view('contact.index');
+});
+
+Route::get('/faq', function () {
+    return view('FAQ.index');
+});
+

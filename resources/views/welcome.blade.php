@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <sponsor-component></sponsor-component>
+<sponsor-component></sponsor-component>
 @include('home.intro')
 @include('home.deal')
 @include('home.achievement')
